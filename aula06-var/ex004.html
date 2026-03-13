@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <pre>
+        <script>
+            /*
+            var nome = window.prompt('Qual é seu nome')
+            document.writeln(`Seu nome tem ${nome.length} letras.`)
+            */
+            var valor = Number(window.prompt('Qual é o valor em reais a ser convertido para outras moedas?'))
+            document.writeln(`O valor correspondente de ${valor.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'})}  em cada unidade monetária é:`)
+            document.writeln('Dólar: '+ (valor*0.19).toLocaleString('pt-BR', {style: 'currency', currency:'USD'}))
+            document.writeln('Euro: '+ (valor*0.17).toLocaleString('pt-BR', {style: 'currency', currency:'EUR'}))
+            document.writeln('Yuan: '+ (valor*1.32).toLocaleString('pt-BR', {style: 'currency', currency:'CNY'}))
+            document.writeln('Iene: '+ (valor*30.52).toLocaleString('pt-BR', {style: 'currency', currency:'JPY'}))
+        </script>
+    </pre>
+</body>
+</html>
