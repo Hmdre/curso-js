@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(148, 64, 64);
+    text-align: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+
+body > header {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
+}
+body > section{
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    font: bolder 18pt sans-serif;
+    padding: 10px;
+}
+
+body > section > div {
+    margin: 15px 0px;
+}
+
+header {
+    color: #fff;
+    font-weight: bolder;
+}
+
+#img {
+    max-width: 80%;
+}
+
+footer {
+    color: #fff;
+    font-style: italic;
+}
